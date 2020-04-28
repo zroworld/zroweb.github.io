@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+/** 首页  */
+.block-title{
+    width: 7.25rem;
+    margin: 0 auto;
+    position: relative;
+}
+.block-title .left{
+    width: 2.06rem;
+    height: 0.08rem;
+    position: absolute;
+    top: 0.21rem;
+    left: 0;
+}
+.block-title .right{
+    width: 2.06rem;
+    height: 0.08rem;
+    position: absolute;
+    top: 0.21rem;
+    right: 0;
+}
+.block-title>h2{
+    font-size: 0.3rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-weight:bold;
+    text-align: center;
+}
+
+#block1 .banner {
+    display: block;
+    width: 7.25rem;
+    height: 3.29rem;
+    margin: 0.94rem auto 0;
+}
+#block1 .text{
+    width: 4.22rem;
+    margin: 0.59rem auto 0;
+    line-height: 0.2rem;
+    font-size: 0.12rem;
+    text-align: center;
+}
+
+#block2{
+    margin-top: 1rem;
+}
+#block2 .content>video{
+    display: block;
+    width: 6.4rem;
+    margin: 0.47rem auto 0.65rem;
+}
+#block2 .content>img{
+    display: block;
+    width: 3.93rem;
+    height: 2.95rem;
+    margin: 0.47rem auto 0.65rem;
+}
+#block2 .content>.text{
+    margin: 0 auto;
+    width: 4.22rem;
+    line-height: 0.2rem;
+    font-size: 0.12rem;
+    text-align: center;
+}
+
+#block3{
+    margin-top: 1.47rem;
+}
+#block3>.content>.item{
+    width: 4.56rem;
+    height: 0.9rem;
+    border: 1px solid #00FFFF;
+    margin: 1rem auto;
+    position: relative;
+}
+#block3>.content>.item>.a{
+    width: 0.77rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family:Georgia;
+    font-weight:bold;
+    position: absolute;
+}
+#block3>.content>.item>.line{
+    width: 1px;
+    height: 0.64rem;
+    background: #00FFFF;
+    position: absolute;
+    left: 0.77rem;
+    top:0.16rem;
+}
+#block3>.content>.item>.text{
+    font-size: 0.12rem;
+    width: 3.3rem;
+    position: absolute;
+    top:0.14rem;
+    left: 0.9rem;
+}
+#block3>.content>.canvas{
+    width: 5rem;
+    height: 5rem;
+    margin: -1rem auto;
+}
+#block3>.content>img{
+    display: block;
+    width: 5.57rem;
+    height: 5.12rem;
+    margin: 0 auto;
+}
+
+#block4>.content{
+    width: 5.4rem;
+    height: 2.4rem;
+    margin: 1rem auto 1.7rem;
+    position: relative;
+}
+#block4>.content>.text{
+    width: 1.4rem;
+    height: 2.4rem;
+    line-height: 0.32rem;
+    font-size: 0.18rem;
+    font-weight:500;
+    position: absolute;
+}
+#container{
+    width: 2.4rem;
+    height: 2.4rem;
+    position: absolute;
+    right: 0;
+}
+
+#block5>.content>ul{
+    width: 7.2rem;
+    margin: 1.5rem auto 1.7rem;
+}
+#block5>.content>ul>li{
+    height: 0.4rem;
+    position: relative;
+    left: 0;
+}
+#block5>.content>ul>li>.line{
+    width: 1px;
+    height: 0.4rem;
+    position: absolute;
+    left: 50%;
+    background: #A2C2FF;
+}
+#block5>.content>ul>li>.line>.point{
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #A2C2FF;
+    position: relative;
+    left: -0.06rem;
+    top:0.14rem
+}
+#block5>.content>ul>li>.text{
+    width: 3.2rem;
+    font-size: 0.18rem;
+    line-height: 0.2rem;
+    text-align: right;
+    position: absolute;
+}
+#block5>.content>ul>li:nth-child(2n) .text{
+    right: 0;
+    text-align: left;
+}
+
+#block6{
+    position: relative;
+    padding-bottom: 2.8rem;
+}
+#block6>.content {
+    line-height: 0.2rem;
+    font-size: 0.12rem;
+    text-align: center;
+    margin-top: 1.28rem;
+}
+#block6>.content>h1{
+    font-size: 0.18rem;
+    font-weight:400;
+    margin: 0.2rem auto 0;
+}
+#block6>.bg{
+    width: 6.13rem;
+    height: 10.92rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
